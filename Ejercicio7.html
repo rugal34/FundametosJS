@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 7. En un archivo HTML crea un script que realice el siguiente caso con el orden
+del siguiente texto:
+● En la nevera de Andrés hay x helados. Esta semana se ha comido x.
+¿Cuántos helados le quedan? -->
+<script>
+        let helados = prompt("Cuantos Helado hay en la nevera de andres?")
+        let helados_nevera = prompt("Cuantos helados se ha comido Andres esta semana?")
+        let result = (parseInt(helados) - parseInt(helados_nevera));
+        document.write ("A andres le quedan " + result + " Helados ")
+</script>
+</body>
+</html>
